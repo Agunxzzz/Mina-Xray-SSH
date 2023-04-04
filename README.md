@@ -1,5 +1,6 @@
 # Mina-Xray-SSH
 Mina Twice cantik bet dah 
+##JANGAN DI INSTALL, BELUM FIX INSTALLERNYA
 ## Tested only on Ubuntu 20.04 <br>
   
   ```html
