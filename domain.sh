@@ -76,4 +76,3 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 echo "$nsdomain" > /etc/xray/nsdomain
 echo "Domain = $SUB_DOMAIN"
 echo "NS Domain = $nsdomain"
-cd
