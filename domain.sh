@@ -2,27 +2,6 @@
 # // String / Request Data
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
-echo "Checking VPS"
-CEKEXPIRED () {
-    today=$(date -d +1day +%Y-%m-%d)
-    Exp1=$(curl -sS https://raw.githubusercontent.com/Agunxzzz/Mina-Xray-SSH/main/permission/ip | grep $MYIP | awk '{print $3}')
-    if [[ $today < $Exp1 ]]; then
-    echo -e "\e[32mSTATUS SCRIPT AKTIF...\e[0m"
-    else
-    echo -e "\e[31mSCRIPT ANDA EXPIRED!\e[0m";
-    exit 0
-fi
-}
-IZIN=$(curl -sS https://raw.githubusercontent.com/Agunxzzz/Mina-Xray-SSH/main/permission/ip | awk '{print $4}' | grep $MYIP)
-if [ $MYIP = $IZIN ]; then
-echo -e "\e[32mPermission Accepted...\e[0m"
-CEKEXPIRED
-else
-echo -e "\e[31mPermission Denied!\e[0m";
-exit 0
-fi
-clear
-
 apt install update && apt upgrade -y
 apt install jq curl -y
 sub=$(</dev/urandom tr -dc a-z | head -c4)
