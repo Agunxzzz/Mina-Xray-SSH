@@ -3,6 +3,7 @@
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 apt install update && apt upgrade -y
+apt install socat -y
 apt install jq curl -y
 sub=$(</dev/urandom tr -dc a-z | head -c4)
 clear
