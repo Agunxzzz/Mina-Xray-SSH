@@ -13,9 +13,6 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
   ```
 ## Installation Link Jika Belum Punya Domain<br>
 
-  ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/Agunxzzz/Mina-Xray-SSH/main/setup2.sh && chmod +x setup2.sh && ./setup2.sh
-  ```
 ## Fitur:
 <br>
 ✅ SSH WEBSOCKET TLS & NON-TLS 443/80 MULTIPATH<br>
