@@ -25,6 +25,8 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 Minat? PM ane aja :<a href="https://t.me/Tereza11" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
 5k/bulan | free trial 3 hari
 
+##dahlah, malah pada ngupload scriptku yg masih opensource, kecolongan ane
+
 ## SS
 
 ![Screenshot_20230404-154004_Termius](https://user-images.githubusercontent.com/86614702/229739373-d5c7f4a0-996b-4225-aeb5-b814e30ddaa7.jpg)
