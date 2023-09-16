@@ -34,3 +34,6 @@ fi
 if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
+rm /etc/rsyslog.d/50-default.conf
+wget -q -O /etc/rsyslog.d/50-default.conf "https://raw.githubusercontent.com/Agunxzzz/MarXray/main/50-default.conf"
+service rsyslog restart
