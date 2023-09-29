@@ -9,3 +9,6 @@ sed -i -e s/iniid/"$userid"/g /root/backup1.sh
 
 echo "2 23 * * * root /root/backup1.sh" >> /etc/crontab
 service cron restart
+rm versi
+touch versi
+echo "1.0.1" >> /root/versi
