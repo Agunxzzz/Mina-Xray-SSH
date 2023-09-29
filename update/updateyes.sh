@@ -3,7 +3,7 @@ chmod 755 backup1.sh
 echo "tulis token botnya"
 read token
 sed -i -e s/initoken/"$token"/g /root/backup1.sh
-echo "tulis tuser idnya"
+echo "tulis user idnya"
 read userid
 sed -i -e s/iniid/"$userid"/g /root/backup1.sh
 
