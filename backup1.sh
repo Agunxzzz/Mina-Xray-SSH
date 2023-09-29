@@ -9,11 +9,11 @@ file_path="/var/lib/marzban/db.sqlite3"
 
 rm -rf /root/backup
 mkdir /root/backup
-cp /etc/passwd backup/
-cp /etc/group backup/
-cp /etc/shadow backup/
-cp /etc/gshadow backup/
-cp -r /etc/xray backup/xray
+cp /etc/passwd /root/backup/
+cp /etc/group /root/backup/
+cp /etc/shadow /root/backup/
+cp /etc/gshadow /root/backup/
+cp -r /etc/xray /root/backup/xray
 cd /root
 zip -r backup.zip backup > /dev/null 2>&1
 # Function to send a message to Telegram
