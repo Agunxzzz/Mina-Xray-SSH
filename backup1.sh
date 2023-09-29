@@ -3,8 +3,8 @@
 
 DATE=$(date +"%m-%d-%y")
 domain=$(cat /etc/xray/domain)
-BOT_TOKEN="5999731421:AAETsXcXoAYK06vWqnLDKF8iccY4gR66YVw"
-CHAT_ID="1106186898"
+BOT_TOKEN="initoken"
+CHAT_ID="iniid"
 file_path="/var/lib/marzban/db.sqlite3"
 
 rm -rf /root/backup
