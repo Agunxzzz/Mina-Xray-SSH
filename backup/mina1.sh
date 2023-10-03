@@ -1,6 +1,4 @@
 #!/bin/bash
-# // config Data
-echo -e "${GREEN}Config Data${NC}"
 wget -q -O /usr/local/bin/mina "https://raw.githubusercontent.com/Agunxzzz/Mina-Xray-SSH/main/backup/mina"
 echo "tulis token botnya"
 read token
