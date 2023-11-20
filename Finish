@@ -37,3 +37,5 @@ fi
 rm /etc/rsyslog.d/50-default.conf
 wget -q -O /etc/rsyslog.d/50-default.conf "https://raw.githubusercontent.com/Agunxzzz/MarXray/main/50-default.conf"
 service rsyslog restart
+mkdir /root/.value/
+mkdir /root/akun/ssh/
